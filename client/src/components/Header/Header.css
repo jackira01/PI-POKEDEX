@@ -1,0 +1,80 @@
+.search-bar {
+  text-align: center;
+  background-color: #65c4ff00;
+  height: 6rem;
+  background-image: linear-gradient(to bottom, #57c1ff, #7ecbff96);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Color de fondo del Navbar */
+  z-index: 999;
+  /* Valor alto de z-index para asegurar que esté por encima de los demás componentes */
+  /* Otros estilos de tu Navbar */
+}
+
+.header {
+  background-color: gray;
+  width: 100%;
+  height: 6rem;
+  position: fixed;
+}
+
+.input {
+  min-height: 3rem;
+  max-width: 12rem;
+  padding: 0 1rem;
+  font-size: 20px;
+  border: 2px solid #079838;
+  border-radius: 5px 0 0 6px;
+  background-color: transparent;
+  margin-top: 1rem;
+  margin-left: 10rem;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #079838;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ----- */
+
+.button-create {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: rgb(255, 75, 75);
+  color: white;
+  border-radius: 4px;
+  float: right;
+  margin: 1.5rem 2%;
+}
+
+.button-create:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,
+      rgb(255, 95, 95) 0%,
+      rgb(255, 118, 118) 100%);
+}
+
+.button-create:active {
+  transform: translate(0em, 0.2em);
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.pokebola {
+  width: 4rem;
+  float: left;
+  margin-left: 8rem;
+  margin-top: 10px;
+}

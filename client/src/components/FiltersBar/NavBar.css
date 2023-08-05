@@ -1,0 +1,80 @@
+#sidebar {
+  position: fixed;
+  width: 18rem;
+  height: 75%;
+  background-size: cover;
+  background-position: 50%;
+  display: inline-table;
+  margin: 3rem 3rem;
+  border-radius: 1rem;
+  background-color: #2d2d2d66;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 19px;
+  color: white;
+  margin: 1.5rem;
+}
+
+#sidebar ul li {
+  color: rgba(0, 0, 0, 0.9);
+  list-style: none;
+  text-align: center;
+}
+
+select {
+  margin-bottom: 1rem;
+}
+
+.title-filter {
+  font-family: "Lemon", cursive;
+  font-weight: 600;
+}
+
+.button-filter {
+  font-size: 17px;
+  font-weight: 600;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+  margin-bottom: 1rem;
+}
+
+.button-filter:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,
+      rgba(30, 144, 255, 1) 0%,
+      rgba(0, 212, 255, 1) 100%);
+}
+
+.button-filter:active {
+  transform: translate(0em, 0.2em);
+}
+
+select {
+  font-weight: 700;
+  font-family: "Heebo", sans-serif;
+  padding: 12px;
+  color: aliceblue;
+  text-align: center;
+  border: 0 !important;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.331);
+}
+
+.dividing-lines {
+  border-bottom: 1px solid rgb(80, 74, 74);
+}

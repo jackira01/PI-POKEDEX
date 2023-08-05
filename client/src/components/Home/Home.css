@@ -1,0 +1,10 @@
+.not-found {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-family: 'Silkscreen', cursive;
+  margin-top: 15rem;
+  text-align: center;
+}

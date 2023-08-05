@@ -1,0 +1,11 @@
+.detail-container {
+  background-image: url('./back-ground.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: 50%;
+  display: table;
+}

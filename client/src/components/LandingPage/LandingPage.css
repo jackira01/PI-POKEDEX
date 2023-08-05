@@ -1,0 +1,21 @@
+.landing-page {
+  background-image: url("./nintendo_pokemon_by_alenintendo_df7dv4g.png");
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: 50%;
+  display: table;
+}
+
+.container-landing-items {
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+.landing-page-title {
+  font-family: "Bungee Shade", cursive;
+  color: white;
+  font-size: 100px;
+  user-select: none;
+  margin-bottom: 2%;
+}

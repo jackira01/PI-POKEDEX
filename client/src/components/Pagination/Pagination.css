@@ -1,0 +1,41 @@
+.container-pagination-button{
+  text-align: center;
+  margin-left: 20%;
+}
+
+.button-back-next {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  margin: 1rem;
+  font-size: 15px;
+  
+}
+
+.svg-left > svg {
+  float: left;
+}
+
+.svg-rigth > svg {
+  float: right;
+}
+
+.input-pagination {
+  padding: 12px;
+  color: aliceblue;
+  text-align: center;
+  border: 0 !important;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.483);
+  margin-bottom: 1rem;
+}
+
+.text-p {
+  font-size: 20px;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+}
