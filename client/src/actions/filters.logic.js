@@ -4,8 +4,10 @@ const BACK_LINK = process.env.REACT_APP_BACK_LINK;
 export const filterByAscendingAlphabet = async (value) => {
   //tengo que forzar el cambio a number porque no llega como number mi value
   const response = await (
-    await axios.get(BACK_LINK)
+    await axios.get(`${BACK_LINK}/pokemon`)
   ).data;
+  console.log(response);
+
   if (String(value) === 'AscendingAlphabet') {
     const dataFilter = response.sort((a, b) => a.name.localeCompare(b.name));
     return dataFilter;
