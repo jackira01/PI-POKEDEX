@@ -7,7 +7,7 @@
   display: inline-table;
   margin: 3rem 3rem;
   border-radius: 1rem;
-  background-color: #2d2d2d66;
+  background-color: #2d2d2dcb;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ li {
 }
 
 #sidebar ul li {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
   list-style: none;
   text-align: center;
 }
@@ -37,8 +37,11 @@ select {
 }
 
 .title-filter {
-  font-family: "Lemon", cursive;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'Lemon';
+  font-weight: 300;
 }
 
 .button-filter {
@@ -55,9 +58,11 @@ select {
 
 .button-filter:hover {
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,
-      rgba(30, 144, 255, 1) 0%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .button-filter:active {
@@ -66,7 +71,7 @@ select {
 
 select {
   font-weight: 700;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Heebo', sans-serif;
   padding: 12px;
   color: aliceblue;
   text-align: center;

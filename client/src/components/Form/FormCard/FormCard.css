@@ -22,7 +22,8 @@
 }
 
 .input-container {
-  background-color: rgba(0, 0, 0, 0.481);
+  color: white;
+  background-color: rgba(46, 45, 45, 0.87);
   width: 30rem;
   height: 35rem;
   text-align: center;
@@ -30,14 +31,15 @@
 }
 
 .list-container {
+  color: white;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   align-items: center;
   width: 250px;
   padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.481);
+  background-color: rgba(46, 45, 45, 0.87);
   margin: 0 60px 25px;
   flex-direction: column;
   font-family: 'Russo One', sans-serif;
@@ -57,12 +59,18 @@
 
 .type-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 15px;
   font-size: 25px;
   font-family: 'Concert One', cursive;
 }
 
 .delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   display: flex;
   justify-content: center;
   width: 5rem;
@@ -80,6 +88,7 @@
 }
 
 .form-button {
+  cursor: pointer;
   color: #090909;
   padding: 0.7em 1.7em;
   font-size: 18px;

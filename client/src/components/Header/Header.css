@@ -2,7 +2,6 @@
   text-align: center;
   background-color: #65c4ff00;
   height: 6rem;
-  background-image: linear-gradient(to bottom, #57c1ff, #7ecbff96);
   position: fixed;
   top: 0;
   left: 0;
@@ -59,9 +58,11 @@
 
 .button-create:hover {
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,
-      rgb(255, 95, 95) 0%,
-      rgb(255, 118, 118) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 95, 95) 0%,
+    rgb(255, 118, 118) 100%
+  );
 }
 
 .button-create:active {
