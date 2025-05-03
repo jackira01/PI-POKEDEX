@@ -16,13 +16,15 @@ const server = express();
 
 server.name = 'API';
 
+const corsOptions = {
+  origin: FRONT_URL,
+};
+
+server.use(cors(corsOptions));
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
 server.use(morgan('dev'));
-
-server.use(cors({ origin: FRONT_URL, credentials: true }));
-
 
 //routes
 server.use('/pokemon', pokemon);
