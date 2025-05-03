@@ -18,6 +18,7 @@ server.name = 'API';
 
 const corsOptions = {
   origin: FRONT_URL,
+  credentials: true,
 };
 
 server.use(cors(corsOptions));
